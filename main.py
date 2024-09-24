@@ -65,7 +65,7 @@ plt.title("Lanzamientos por mes y año")
 st.pyplot(plt)
 
 #pip install streamlit pandas seaborn matplotlib
-
+openai_api_key = st.secrets["OPENAI_API_KEY"]
 client = openai.OpenAI(api_key=openai_api_key)
 
 
